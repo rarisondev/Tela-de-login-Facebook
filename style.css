@@ -1,0 +1,107 @@
+.main{
+    width: 100vw;
+    height: 100vh;
+    background: #f3f6fa;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+ }
+
+ .left{
+    width:30vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12%;
+    flex-direction: column;
+ }
+
+ .left p{
+    width:38vw;
+    height: 10vh;
+    margin-left: 53%;
+    font-size: 182%;
+    font-weight: 500;
+    margin-bottom: 10%;
+ }
+
+*{
+    margin: 0;
+    padding: 0;
+ }
+
+ 
+
+ .right{ 
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right p{ 
+   width: 31vw;
+   font-size: 15px;
+   justify-content: center;
+   align-items: center;
+   margin-left: 34%;
+   margin-top: 3%;
+}
+
+.right p.p{ 
+    width: 7vw;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 34%;
+    margin-top: -2.5%;
+  
+ }
+
+input{ 
+    width: 27vw;
+    height: 9vh;
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 10px;
+    background-color: transparent;
+    color: antiquewhite;
+    margin-bottom: 25px;
+    font-size: 12pt;
+    padding: -10px;
+    box-sizing: border-box;
+    
+}
+
+ 
+ .facebook{
+    width:100vw;
+    height: 17vh;
+    margin-right: 12%;
+    
+ }
+ 
+ input::placeholder {
+    color: gray;
+    padding: 10px;
+  }
+
+ .card{ 
+    width: 60%;
+    height: 56%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    margin-left: 30%;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 2px 2px 10px -3px rgba(89,89,89,0.69);
+-webkit-box-shadow: 2px 2px 10px -3px rgba(89,89,89,0.69);
+-moz-box-shadow: 2px 2px 10px -3px rgba(89,89,89,0.69);
+}
+
+
